@@ -1,7 +1,9 @@
-site_name: S1amesecat 知识库
+site_name: 1ces1amese
 site_description: 记录学习、开发与实践过程中的技术笔记
 site_author: S1amesecat
-site_url: https://s1amesecat.github.io/
+site_url: https://docs.1ces1amese.cn/
+exclude_docs: |
+  guide/
 copyright: Copyright &copy; 2026 1ces1amese
 
 theme:
@@ -68,8 +70,4 @@ extra:
 
 nav:
   - 首页: index.md
-  - 使用指南:
-      - 环境与目录: guide/getting-started.md
-      - 文章发布方法: guide/publishing-articles.md
-      - 部署与维护: guide/deployment.md
   - 关于: about.md
